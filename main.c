@@ -195,7 +195,8 @@ void Test_backspace(Test *test) {
 
     if (test->tape.head == 0) {
         test->tape.head = test->tape.cap - 1;
-    } else {
+    } 
+    else {
         test->tape.head = test->tape.head - 1;
     }
     
